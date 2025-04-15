@@ -2,7 +2,7 @@ This repo contains inf. about DIP/DRIP analysis of hPSCs and HAP1 (WT, KO HNRNPA
 This code belongs as a part of inf. to the 'Cellular type is a major determinant of R-loop genomic distribution' paper. \
 The standard steps of IP seq analysis are described well in the .ipynb file:
 1. QC analysis.
-2. Reads trimming (if it is needed).
+2. Reads trimming (if it is needed (based on the QC step)).
 3. Reads mapping (to the reference human genome. See more information about the assembly version in the code).
 4. Reads filtering.
 5. Peaks calling.
